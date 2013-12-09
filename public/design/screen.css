@@ -312,3 +312,9 @@ article li {
   width: 50%;
   margin: 10% 0 0 24%;
 }
+
+/* line 195, screen.scss */
+.bcAssetsPage p {
+  width: 85%;
+  line-height: 135%;
+}
