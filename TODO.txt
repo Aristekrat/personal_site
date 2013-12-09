@@ -1,0 +1,15 @@
+1 - Writing Agenda
+    .Assets
+        .Main Point: Proven Ability to Learn (+Additional Skills)
+        .Versatility (+Right Now Skills)
+        .Love of Coding (+Commitment to Best Practices)
+    .Goals
+        .Skills Growth
+    .Questions
+        .Location
+        .Long term commitment
+        .Lack of specialization
+    .Projects
+    .Salary Expectations
+2 - Add Nav Nesting
+3 - Create an active state on the nav links

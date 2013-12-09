@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Portfolio">
+    <head>
+        <link rel="stylesheet" href="design/screen.css">
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+        <script src="js/angular-utility.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Fenix|Rancho' rel='stylesheet' type='text/css'>
+        <title>Brian Case: Personal Site</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Brian Case<br/> <span>brian@masspire.com</span></h1>
+            <nav>
+                <a href="https://github.com/Aristekrat" id="bcGitHub" title="Git Hub"><!--<p>Github</p>--></a>
+                <a href="/"><p>Why You Should Hire Me</p></a>
+                <!--<a href="goals"><p>My Goals</p></a>-->
+                <a href="questions"><p>Common Questions</p></a>
+                <a href="projects"><p>Projects</p></a>
+                <a href="salary-expectations"><p>Salary Expectations</p></a>
+            </nav>
+        </header>
+
+        <article ng-view> 
+        </article>
+
+    </body>
+</html>

@@ -1,0 +1,314 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/***SASS Variables and Mix-ins***/
+/* line 17, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../lib/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 32, screen.scss */
+body {
+  background-color: #222222;
+  font-family: 'Fenix', serif;
+  color: #eee;
+}
+
+/* line 38, screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 42, screen.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 2%;
+}
+
+/* line 47, screen.scss */
+header nav {
+  width: 11.5em;
+  float: left;
+  position: fixed;
+  top: 1%;
+}
+
+/* line 52, screen.scss */
+#bcGitHub {
+  border-radius: 50%;
+  height: 7em;
+  width: 7em;
+  margin: 0 0 2.5% 4%;
+  background: transparent url(../images/github.png) 38% 80% no-repeat;
+  background-size: 110%;
+  box-shadow: 0 0 0 #fff;
+}
+
+/* line 60, screen.scss */
+#bcGitHub:hover {
+  left: 0%;
+}
+
+/* line 62, screen.scss */
+#bcGitHub p {
+  margin: 39% 0 0 33%;
+}
+
+/* line 64, screen.scss */
+header a {
+  float: left;
+  width: 100%;
+  position: relative;
+  height: 3em;
+  margin-left: -2%;
+  background-color: #171515;
+  border-radius: 0px 35px 35px 0px;
+  /* top left, top right, bottom right, bottom left */
+  box-shadow: inset -1px 0px 0px #222222, inset 0px 1px 0px #222222, inset 0px -1px 0px #222222;
+}
+
+/* line 75, screen.scss */
+header a:hover {
+  background-color: #101010;
+  left: 4px;
+}
+
+/* line 78, screen.scss */
+header a p {
+  margin: 10% 0 0 7%;
+  color: rgba(0, 0, 0, 0.3);
+  text-shadow: -1px -1px 0 #fff;
+  text-decoration: none;
+  font-size: .85em;
+}
+
+/* line 84, screen.scss */
+header h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 1%;
+  color: rgba(0, 0, 0, 0.3);
+  text-shadow: -1px -1px 0 #fff;
+  font-family: 'Rancho', cursive;
+}
+
+/* line 91, screen.scss */
+header h1 span {
+  font-size: .6em;
+}
+
+/* line 95, screen.scss */
+article {
+  background-image: -ms-linear-gradient(top, #131313 0%, #1a1a1a 1%);
+  background-image: -moz-linear-gradient(top, #131313 0%, #1a1a1a 1%);
+  background-image: -o-linear-gradient(top, #131313 0%, #1a1a1a 1%);
+  background-image: -webkit-linear-gradient(top, #131313 0%, #1a1a1a 1%);
+  background-image: linear-gradient(to bottom, #131313 0%, #1a1a1a 1%);
+  width: 75%;
+  float: left;
+  margin: 2.25% 0 10% 15%;
+  padding: 0.5% 2% 2% 2%;
+  border-left: 1px solid #222;
+  height: 100%;
+  line-height: 125%;
+}
+
+/* line 104, screen.scss */
+article p {
+  display: block;
+  margin: 1.5% 0;
+}
+
+/* line 107, screen.scss */
+article li {
+  list-style-type: circle;
+  margin: 1.5% 0 1.5% 2%;
+}
+
+/*** Salary Page Styling ***/
+/* line 116, screen.scss */
+.bcSalaryBlock h4 {
+  text-align: center;
+  opacity: .5;
+}
+
+/* line 119, screen.scss */
+.bcSalaryRange {
+  width: 80%;
+  border-radius: 30px;
+  height: 3em;
+  margin: 1% 10%;
+  display: block;
+  background-image: -ms-linear-gradient(left, #9af8bf 0%, #0e9142 100%);
+  background-image: -moz-linear-gradient(left, #9af8bf 0%, #0e9142 100%);
+  background-image: -o-linear-gradient(left, #9af8bf 0%, #0e9142 100%);
+  background-image: -webkit-linear-gradient(left, #9af8bf 0%, #0e9142 100%);
+  background-image: linear-gradient(to left, #9af8bf 0%, #0e9142 100%);
+}
+
+/* line 126, screen.scss */
+.bcSalaryBlock p {
+  position: relative;
+  width: 35%;
+  margin-top: 0;
+}
+
+/* line 130, screen.scss */
+.bcSalaryMax {
+  float: left;
+  left: 12%;
+}
+
+/* line 133, screen.scss */
+.bcSalaryMin {
+  float: right;
+  left: 10%;
+}
+
+/* line 138, screen.scss */
+.bcIntangiblesBlock {
+  display: block;
+  width: 90%;
+  margin: 4% 5%;
+}
+
+/* line 142, screen.scss */
+.bcIntangiblesBlock h3 {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 1%;
+}
+
+/* line 146, screen.scss */
+.bcIntangiblesBlock h3 span {
+  font-size: 0.7em;
+  opacity: .8;
+}
+
+/* line 149, screen.scss */
+.bcIntangiblesBlock ul {
+  width: 100%;
+  display: block;
+}
+
+/* line 152, screen.scss */
+.bcIntangiblesBlock li {
+  float: left;
+  list-style-type: none;
+  margin: .5% 1%;
+  display: inline;
+  width: 23%;
+  text-align: center;
+}
+
+/* line 163, screen.scss */
+.bcSalaryResearch h2 {
+  text-align: center;
+  width: 90%;
+  margin: 8% 5% 2% 5%;
+}
+
+/* line 167, screen.scss */
+.bcSalaryResearch div {
+  float: left;
+  background-color: #2f2f2f;
+  width: 30%;
+  margin: 1.5%;
+  height: 10em;
+}
+
+/* line 173, screen.scss */
+.bcSalaryResearch li {
+  list-style-type: none;
+}
+
+/* line 175, screen.scss */
+.bcSalaryResearch a {
+  color: #95F5F5;
+}
+
+/* line 177, screen.scss */
+.bcSalaryResearch a:hover {
+  color: #41FFFF;
+}
+
+/* line 183, screen.scss */
+.bcMajorProjects a {
+  width: 22.5%;
+  float: left;
+  margin: 0 0 2% 2%;
+  height: 10em;
+  background-image: -ms-linear-gradient(top, #222222 0%, white 4%);
+  background-image: -moz-linear-gradient(top, #222222 0%, white 4%);
+  background-image: -o-linear-gradient(top, #222222 0%, white 4%);
+  background-image: -webkit-linear-gradient(top, #222222 0%, white 4%);
+  background-image: linear-gradient(to bottom, #222222 0%, #ffffff 4%);
+  box-shadow: inset 0 -1px 0 #666, inset 1px 0 0 #666, inset -1px 0 0 #666;
+}
+
+/* line 190, screen.scss */
+.bcMajorProjects img {
+  width: 50%;
+  margin: 10% 0 0 24%;
+}
